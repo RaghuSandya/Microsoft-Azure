@@ -1,6 +1,6 @@
 ﻿# Microsoft Azure Service BUS Topic
 
-The Microsoft Azure Service BUS Topic SDK allows you to build Azure applications that take advantage of scalable cloud computing resources.
+ The Microsoft Azure Service BUS Topic SDK allows you to build Azure applications that take advantage of scalable cloud computing resources.
 
 ## Features
 
