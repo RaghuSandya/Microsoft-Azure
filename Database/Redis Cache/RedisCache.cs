@@ -76,7 +76,6 @@ namespace RedisCache
             return result.ToString();
         }
     }
-    
     class Employee
     {
         public string EmployeeId { get; set; }
