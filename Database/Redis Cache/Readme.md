@@ -1,6 +1,6 @@
 ﻿# Microsoft Azure Redis Cache SDK
 
- The Microsoft Azure Redis Cache SDK allows you to build Azure applications that take advantage of scalable cloud computing resources.
+The Microsoft Azure Redis Cache SDK allows you to build Azure applications that take advantage of scalable cloud computing resources.
 
 ## Features
 
