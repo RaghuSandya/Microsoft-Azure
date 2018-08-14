@@ -21,7 +21,6 @@ namespace ServiceBUSTopic
         {
             MainAsync().GetAwaiter().GetResult();
         }
-
         static async Task MainAsync()
         {
             topicClient = new TopicClient(ServiceBusConnectionString, topicName);
