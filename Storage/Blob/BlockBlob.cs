@@ -37,7 +37,6 @@ namespace BlockBlob
             blobContainer = blobClient.GetContainerReference(containerName);
             blobContainer.CreateIfNotExistsAsync();
             blobContainer.SetPermissionsAsync(new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
-
             cloudBlockBlob = blobContainer.GetBlockBlobReference(localFileName);
 
             while (true)
