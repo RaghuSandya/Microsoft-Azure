@@ -149,6 +149,7 @@ namespace SQLDatabase
             }
             Console.ReadKey();
         }
+        
         public static string RandomString(Random random, int length)
         {            
             string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
