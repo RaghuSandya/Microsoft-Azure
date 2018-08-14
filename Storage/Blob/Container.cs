@@ -19,7 +19,6 @@ namespace StorageBlobContainer
             Console.WriteLine("=========================================");
             Console.WriteLine("Azure Storage Blob Container Operations");
             Console.WriteLine("=========================================");
-
             while (true)
             {
                 string containerName = null;
