@@ -22,7 +22,6 @@ namespace StorageQueue
 
             cloudStorageAccount = CloudStorageAccount.Parse("Shared Access Signature Primary or Secondary Connection String");
             cloudQueueClient = cloudStorageAccount.CreateCloudQueueClient();
-
             while (true)
             {
                 string queueName = null;
