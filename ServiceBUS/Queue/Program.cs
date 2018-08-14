@@ -16,7 +16,6 @@ namespace ServiceBUSQueue
         {
             MainAsync().GetAwaiter().GetResult();
         }
-
         static async Task MainAsync()
         {
             queueClient = new QueueClient(ServiceBusConnectionString, QueueName);
@@ -28,7 +27,6 @@ namespace ServiceBUSQueue
             Console.ReadKey();
             await queueClient.CloseAsync();
         }
-
         static void ReceiveMessages()
         {
             var messageHandlerOptions = new MessageHandlerOptions(ExceptionReceivedHandler)
@@ -39,13 +37,11 @@ namespace ServiceBUSQueue
    
             queueClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);
         }
-
         static async Task ProcessMessagesAsync(Message message, CancellationToken token)
         {
             Console.Write($"\nReceived message: SequenceNumber:{message.SystemProperties.SequenceNumber} Body:{Encoding.UTF8.GetString(message.Body)}");
             await queueClient.CompleteAsync(message.SystemProperties.LockToken);
-        }
-        
+        }        
         static Task ExceptionReceivedHandler(ExceptionReceivedEventArgs exceptionReceivedEventArgs)
         {
             Console.WriteLine($"Message handler encountered an exception {exceptionReceivedEventArgs.Exception}.");
@@ -56,7 +52,6 @@ namespace ServiceBUSQueue
             Console.WriteLine($"- Executing Action: {context.Action}");
             return Task.CompletedTask;
         }
-
         static async Task SendMessagesAsync(int numberOfMessagesToSend)
         {
             try
