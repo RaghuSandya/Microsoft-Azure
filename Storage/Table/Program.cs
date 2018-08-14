@@ -95,6 +95,7 @@ namespace StorageTable
             }
         }
     }
+    
     class Users : TableEntity
     {
         public Users(string UserName, string Name)
