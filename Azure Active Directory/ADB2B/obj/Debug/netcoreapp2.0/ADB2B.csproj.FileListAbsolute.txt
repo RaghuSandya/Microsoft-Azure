@@ -1,0 +1,12 @@
+E:\Code\C#\Azure\ADB2B\bin\Debug\netcoreapp2.0\ADB2B.deps.json
+E:\Code\C#\Azure\ADB2B\bin\Debug\netcoreapp2.0\ADB2B.runtimeconfig.json
+E:\Code\C#\Azure\ADB2B\bin\Debug\netcoreapp2.0\ADB2B.runtimeconfig.dev.json
+E:\Code\C#\Azure\ADB2B\bin\Debug\netcoreapp2.0\ADB2B.dll
+E:\Code\C#\Azure\ADB2B\bin\Debug\netcoreapp2.0\ADB2B.pdb
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\ADB2B.csprojAssemblyReference.cache
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\ADB2B.csproj.CoreCompileInputs.cache
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\ADB2B.AssemblyInfoInputs.cache
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\ADB2B.AssemblyInfo.cs
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\ADB2B.dll
+E:\Code\C#\Azure\ADB2B\obj\Debug\netcoreapp2.0\ADB2B.pdb
