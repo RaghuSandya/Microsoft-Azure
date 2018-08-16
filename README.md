@@ -4,8 +4,8 @@ The Microsoft Azure SDK allows you to build Azure applications that take advanta
 
 ## Microsoft Azure Stack
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/psrsekhar/Microsoft-Azure/blob/master/azure-stack-services.png)
 
 ## Microsoft Azure Services
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/psrsekhar/Microsoft-Azure/blob/master/Microsoft-Azure-Services.png)
